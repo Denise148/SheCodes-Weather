@@ -1,0 +1,12 @@
+body {
+  background-color: #f9f7fe;
+  font-family: "Ubuntu", sans-serif;
+}
+.app {
+  background: white;
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 30px;
+  box-shadow: o 30px 50px rgba(65, 50, 100, 0.08);
+  border-radius: 20px;
+}
