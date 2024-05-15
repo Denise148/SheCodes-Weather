@@ -18,19 +18,20 @@
   <body>
     <div class="app">
       <header>
-        <form>
+        <form id="search-form">
           <input
             type="search"
             placeholder="Enter a city..."
             required
-            class="search-form-input" />
+            class="search-form-input"
+            id="search-input" />
           <input type="submit" value="Search" class="search-form-button" />
         </form>
       </header>
       <main>
         <div class="weather-data">
           <div>
-            <h1 class="city">Albuquerque</h1>
+            <h1 class="city" id="city">Albuquerque</h1>
             <p class="details">
               Monday 3:45pm, Sunny
               <br />
@@ -57,9 +58,10 @@
         <a
           href="https://app.netlify.com/sites/firstweatherappshecodes/overview"
           target="_blank">
-          Netlify</a
-        >
+          Netlify
+        </a>
       </footer>
     </div>
+    <script src="src/index.js"></script>
   </body>
 </html>
