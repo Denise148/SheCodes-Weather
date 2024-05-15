@@ -47,13 +47,13 @@ strong {
   display: flex;
 }
 .icon {
-  font-size: 40px;
-  margin-top: 20px;
-  margin-right: 10px;
+  width: 88px;
+  height: 88px;
 }
 .temperature-value {
   font-size: 80px;
   font-weight: bold;
+  line-height: 88px;
 }
 .unit {
   margin-top: 16px;
