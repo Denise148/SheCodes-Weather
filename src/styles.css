@@ -82,17 +82,17 @@ main {
 }
 
 .forecast-icon {
-  font-size: 34px;
-  text-align: center;
-  display: flex;
-  justify-content: space-around;
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 0 auto;
 }
 .temps {
   text-align: center;
   color: #f65282;
   margin-top: 40px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .forecast-temperature {
